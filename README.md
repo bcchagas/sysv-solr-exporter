@@ -1,5 +1,5 @@
 # SysV Script for Solr-exporter
-Solr 7.3 and above comes with a Prometheus exporter located in `contrib/prometheus-exporter` in your Solr instance but it does not include a init script.
+Solr 7.3 and above comes with a Prometheus exporter located in `contrib/prometheus-exporter` but it does not include an init script.
 The init script provided in this repo allows you to enable the Prometheus exporter at system startup as well as start/stop/restart it using the `service` and `systemctl` utils.
 
 ## Instalation
